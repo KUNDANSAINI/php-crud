@@ -12,6 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     if (!isset($_GET["id"])) {
         header("Location: /learn/index.php");
         exit();
+        
     }
 
     $id = $_GET["id"];

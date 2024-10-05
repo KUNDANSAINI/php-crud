@@ -13,6 +13,7 @@ if (isset($_GET["id"])) {
     $sql = "DELETE FROM product WHERE id=$id";
 
     $connection->query($sql);
+    
 }
 header("Location: /learn/index.php");
 exit();
