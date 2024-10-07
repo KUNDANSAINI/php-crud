@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         $errorMessage = "Invalid Query: " . $connection->error;
     } else {
         $successMessage = "Successfully Updated!";
-        header("Location: /learn/index.php");
+        header("Location: /php-crud/index.php");
         exit();
     }
 }
@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                     </div>
                     <button class='btn btn-success form-control mt-2' type='submit'>Submit</button>
                 </form>
-                <a href='/learn/index.php' class='btn btn-info form-control mt-2' type='submit'>Go To Back</a>
+                <a href='/php-crud/index.php' class='btn btn-info form-control mt-2' type='submit'>Go To Back</a>
             </div>
             <div class="col-md-3"></div>
         </div>

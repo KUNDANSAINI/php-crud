@@ -15,7 +15,7 @@ if (isset($_GET["id"])) {
     $connection->query($sql);
     
 }
-header("Location: /learn/index.php");
+header("Location: /php-crud/index.php");
 exit();
 
 ?>

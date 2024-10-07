@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>Shop Data</h2>
-                <a class='btn btn-primary' href='/learn/create.php'>Add Product</a>
+                <a class='btn btn-primary' href='/php-crud/create.php'>Add Product</a>
                 <table class='table table-hover'>
                     <thead>
                         <tr>
@@ -72,8 +72,8 @@
                             <td>$row[subCategory]</td>
                             <td>$row[brand]</td>
                             <td>
-                                <a class='btn btn-success' href='/learn/edit.php?id=$row[id]'>Edit</a>
-                                <a class='btn btn-danger' href='/learn/delete.php?id=$row[id]'>Delete</a>
+                                <a class='btn btn-success' href='/php-crud/edit.php?id=$row[id]'>Edit</a>
+                                <a class='btn btn-danger' href='/php-crud/delete.php?id=$row[id]'>Delete</a>
                             </td>
                         </tr>
                             ";
